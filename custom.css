@@ -1,0 +1,138 @@
+.top-head h3{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+font-weight:50px;
+margin: 0px;
+}
+
+.top-head h2{
+    text-align: right;
+    margin: 0px;
+}
+.jumbo-text{
+padding-top: 120px;
+}
+
+.jumbo-text h1{
+    font-size: 100px;
+}
+.jumbo-text p{
+    font-size: 25px;
+    padding-left: 15px;
+}
+.jumbo-text a{
+    padding: 10px;
+    font-size: larger;
+    margin-left:15px;
+}
+
+.jumbo-text a:hover{
+    color: green;
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+.boxes{
+    padding: 15px 0px;
+    color: #fff;
+}
+
+
+/* Outreach page */
+
+
+
+.outreaches{
+    background-color: #f5f5f5;
+}
+.outreaches .box{
+    box-shadow: 1px 2px 5px 1px rgb(201, 201, 201);
+    padding: 5px;
+    color: #000;
+    margin-top: 15px;
+}
+
+.outreaches .box p{
+    color: #000;
+}
+
+
+
+
+/* outreach page */
+
+
+
+
+/* About page */
+
+
+/* End About page */
+
+
+
+
+/* contact page */
+
+.our-info{
+    background-color: rgb(8, 8, 8);
+    opacity: 70%;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+.our-info h3{
+    color: rgb(9, 197, 9);
+}
+
+form input{
+    margin: 10px 0px;
+}
+form textarea{
+    resize: none;
+}
+
+/* contact page */
+
+
+
+/* FAQ */
+
+.FAQ .question{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #dfdfdf;
+}
+
+.FAQ .question h4{
+    color: rgb(9, 197, 9);
+}
+
+/* end FAQ */
+
+footer{
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+}
+
+b{
+    position: relative;
+    background-color: black;
+    color: white;
+    }
+    b:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 45%;
+    right: 0;
+    border-top: 2px solid;
+    border-color: red;
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    transform: rotate(25deg);
+    text-decoration-style: double;
+    }
